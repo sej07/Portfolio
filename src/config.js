@@ -1,5 +1,6 @@
 module.exports = {
   email: 'barshikar.s@northeastern.edu',
+  resumeLink: '/Portfolio/resume.pdf',
 
   socialMedia: [
     {
