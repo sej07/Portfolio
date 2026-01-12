@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://sejalbarshikar.github.io/Portfolio/sitemap-index.xml
+Host: https://sejalbarshikar.github.io
