@@ -3,7 +3,7 @@ date: '2024-02-01'
 title: 'Data Science Intern'
 company: 'AICTE'
 location: 'Remote, India'
-range: 'February - April 2024'
+range: 'December 2023 - May 2024'
 url: 'https://www.aicte-india.org/'
 ---
 
