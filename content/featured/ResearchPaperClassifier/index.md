@@ -11,6 +11,11 @@ tech:
   - Python
 ---
 
-Designed an end-to-end document classification system by fine-tuning BERT-base on 110M parameters for multi-class classification across 11 academic categories, with a modular, production-oriented codebase and validation pipeline
+Fine-tuned BERT-base (109M parameters) on 28K arXiv abstracts for 11 category classification to achieve 80.3% test
+accuracy(8.8x above random baselines) with 9 of 11 categories exceeding 80% F1
 
-Conducted detailed error analysis using confusion matrices, identifying conceptual overlap between closely related categories and documenting insights to guide future dataset refinement and model improvements
+Conducted systematic error analysis via confusion matrix identifying semantic overlap between interdisciplinary
+categories, documenting category-specific failure modes to guide future dataset refinement
+
+Optimized training for Apple Silicon MPS with gradient clipping, linear warmup scheduling, and AdamW, achieving
+stable convergence in a single epoch across 3,549 batches on a resource-constrained environment

@@ -105,8 +105,8 @@ const Research = () => {
       journal: 'Mukt Shabd Journal',
       date: 'Apr 2025',
       description:
-        'Developed meta-learning framework using MAML algorithm for automated code summarization across Python to improve adaptability with minimal fine-tuning. Applied transfer learning and data augmentation techniques on CodeSearchNet dataset achieving 12\% improvement in BLEU-4 scores over baseline Seq2Seq models',
-      link: 'https://drive.google.com/file/d/1xz7wxIcJEaT1-i6X1PM1wPIxrqS0Xab8/view', 
+        'Applied MAML-based meta-learning to retrieval-augmented code summarization across 108K Python code-summary pairs, demonstrating cross-domain generalization with two stage coarse-to-fine retrieval. Applied transfer learning and data augmentation techniques on CodeSearchNet dataset achieving 12% improvement in BLEU-4 scores over baseline Seq2Seq models',
+      link: 'https://drive.google.com/file/d/1xz7wxIcJEaT1-i6X1PM1wPIxrqS0Xab8/view',
     },
     {
       title: 'Serverless Computing and Its Impact on Application Development',
