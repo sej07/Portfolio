@@ -1,12 +1,14 @@
 ---
-date: '2024-02-01'
+date: '2025-02-01'
 title: 'Data Science Intern'
 company: 'AICTE'
 location: 'Remote, India'
-range: 'December 2023 - May 2024'
+range: 'December 2024 - May 2025'
 url: 'https://www.aicte-india.org/'
 ---
 
-- Built an end-to-end ML pipeline processing 5M+ transaction records to transform raw data into model-ready features and customer representations
-- Engineered behavioral features and trained clustering-based models, evaluating run-to-run stability across 10+ random initializations to ensure consistent model behavior and reduced data preprocessing time by ~60% by optimizing Pandas-based ETL workflows
-- Deployed a recommendation service via Flask REST API, optimizing inference paths to achieve sub-100ms latency for real-time usage
+- Built an end-to-end ETL pipeline processing 5M+ retail transaction records using optimized Pandas workflows reducing data preprocessing time by 60%
+- Engineered RFM behavioral features (recency, frequency, monetary) and applied K-Means clustering evaluated across 10+ initializations via Silhouette analysis, identifying 5 distinct customer segments
+- Collaborated with a team of 10+ analysts and engineers to define segmentation criteria, validate cluster profiles, and align model outputs with targeted marketing objectives
+- Deployed segmentation inference via Flask REST API achieving sub-100ms latency for real-time usage
+- Drove 20% increase in conversion rates through segment specific behavioral profiling and personalized recommendations

@@ -101,7 +101,7 @@ const Education = () => {
       school: 'Savitribai Phule Pune University',
       location: 'Pune, India',
       date: 'Aug 2021 - May 2025',
-      gpa: '8.65/10',
+      gpa: '3.46/4',
       courses: 'Machine Learning, Pattern Recognition, Computer Vision, Data Structures, Discrete Mathematics, Statistics, Probability, Linear Algebra',
     },
   ];
